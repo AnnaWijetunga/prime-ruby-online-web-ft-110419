@@ -2,7 +2,7 @@
 def prime?(number)
   start = 2 
   if number > 1 
-    range = (start..number-1).to_a range.non? do |num_to_test|
+    range = (start..number-1).to_a range.none? do |num_to_test|
   
   #takes in an integer argument
   #returns a boolean of whether or not that integer is a prime number
