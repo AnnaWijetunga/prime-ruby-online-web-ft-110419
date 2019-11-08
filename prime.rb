@@ -2,7 +2,7 @@
 def prime?(number)
   start = 2 
   if number > 1 
-    range = (start..number-1).to_a range.none? do |num_to_test|
+
   
   #takes in an integer argument
   #returns a boolean of whether or not that integer is a prime number
@@ -12,8 +12,6 @@ def prime?(number)
   #how to turn a range into an array so it can be iterated over?
   #don't use any other Ruby library
   #must build a method that can verify whether a number is prime
-  #don't require 'math' 
-  #look into benchmarking
   # returns true for prime numbers (FAILED - 1)
   # returns false for non-prime numbers (FAILED - 2)
 end
