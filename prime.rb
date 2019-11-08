@@ -12,4 +12,6 @@ def prime?( )
   #must build a method that can verify whether a number is prime
   #don't require 'math' 
   #look into benchmarking
+  # returns true for prime numbers (FAILED - 1)
+  # returns false for non-prime numbers (FAILED - 2)
 end
