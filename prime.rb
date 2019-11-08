@@ -1,5 +1,7 @@
 # Add  code here!
 def prime?( )
+  
+  
   #takes in an integer argument
   #returns a boolean of whether or not that integer is a prime number
   #what defines a prime number?
@@ -8,4 +10,5 @@ def prime?( )
   #don't use any other Ruby library
   #must build a method that can verify whether a number is prime
   #don't require 'math' 
+  #look into benchmarking
 end
